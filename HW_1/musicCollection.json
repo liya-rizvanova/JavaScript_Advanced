@@ -1,0 +1,24 @@
+{
+  "albums": [
+    {
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "year": "1982"
+    },
+    {
+      "title": "Back in Black",
+      "artist": "AC/DC",
+      "year": "1980"
+    },
+    {
+      "title": "The Dark Side of the Moon",
+      "artist": "Pink Floyd",
+      "year": "1973"
+    },
+    {
+      "title": "Rumours",
+      "artist": "Fleetwood Mac",
+      "year": "1977"
+    }
+  ]
+}
