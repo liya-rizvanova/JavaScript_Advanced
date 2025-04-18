@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Отзывы о продуктах</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    .product { margin-bottom: 30px; }
+    .reviews { margin-top: 10px; }
+    .error { color: red; margin-top: 5px; }
+  </style>
+</head>
+<body>
+  <h2>Оставить отзыв</h2>
+  <select id="product-select"></select><br><br>
+
+  <textarea id="review-text" rows="4" cols="60" placeholder="Напишите отзыв (50–500 символов)"></textarea><br>
+  <button id="submit-review">Отправить отзыв</button>
+  <div class="error" id="error-msg"></div>
+
+  <hr>
+
+  <div id="products"></div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

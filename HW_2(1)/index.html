@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Библиотека</title>
+		<style>
+			body {
+				font-family: sans-serif;
+				max-width: 600px;
+				margin: 40px auto;
+			}
+			h1 {
+				color: #333;
+			}
+			ul {
+				padding-left: 20px;
+			}
+			form {
+				margin-bottom: 20px;
+			}
+			input[type="text"] {
+				padding: 5px;
+			}
+			button {
+				padding: 5px 10px;
+			}
+			#message {
+				color: red;
+				margin-top: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>📚 Моя библиотека</h1>
+
+		<h2>Текущие книги:</h2>
+		<ul id="book-list"></ul>
+
+		<h2>Добавить книгу</h2>
+		<form id="add-form">
+			<input type="text" name="title" required placeholder="Введите название" />
+			<button type="submit">Добавить</button>
+		</form>
+
+		<h2>Удалить книгу</h2>
+		<form id="remove-form">
+			<input type="text" name="removeTitle" required placeholder="Введите название" />
+			<button type="submit">Удалить</button>
+		</form>
+
+		<div id="message"></div>
+
+		<script type="module" src="main.js"></script>
+	</body>
+</html>
