@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Добавить отзыв</title>
+	</head>
+	<body>
+		<h2>Добавить отзыв о продукте</h2>
+
+		<label for="product-select">Выберите продукт:</label>
+		<select id="product-select">
+			<option value="" disabled selected>-- Выберите товар --</option>
+			<option value="Apple iPhone 13">Apple iPhone 13</option>
+			<option value="Samsung Galaxy Z Fold 3">Samsung Galaxy Z Fold 3</option>
+			<option value="Sony PlayStation 5">Sony PlayStation 5</option>
+			<option value="Xiaomi Mi Band 7">Xiaomi Mi Band 7</option>
+			<option value="MacBook Pro M2">MacBook Pro M2</option>
+		</select>
+
+		<br /><br />
+
+		<textarea id="review-text" rows="4" cols="50" placeholder="Ваш отзыв"></textarea><br /><br />
+		<button id="add-review-btn">Добавить отзыв</button>
+
+		<p id="message"></p>
+
+		<p><a href="reviews.html">Посмотреть все отзывы</a></p>
+
+		<script type="module" src="add.js"></script>
+	</body>
+</html>
